@@ -1,0 +1,16 @@
+venv/
+venv_smoketest/
+__pycache__/
+*.pyc
+*.egg-info/
+wandb/
+data/cifar100/*
+data/cinic10/*
+data/tinyimagenet/*
+data/cifar-100-python/*
+data/cifar-100-python.tar.gz
+checkpoints/
+results/
+subnet_caches/posthoc/
+.pytest_cache/
+temp/

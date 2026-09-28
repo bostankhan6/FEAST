@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "feast"
+version = "0.1.0"
+description = "FEAST: federated training with correlated compute-data allocation and sub-supernet communication for resource-heterogeneous NAS"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Anonymous"}
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "torch>=1.13.0",
+    "torchvision>=0.14.0",
+    "ofa",  # Once-for-All library
+    "wandb",
+    "tqdm",
+    "Pillow",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

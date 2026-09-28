@@ -1,0 +1,49 @@
+{
+    "num_stages": 4,
+    "max_extra_blocks_per_stage": 8,
+    "original_stem_out_channels": 64,
+    "original_stage_base_channels": [
+        128,
+        256,
+        512,
+        1024
+    ],
+    "initial_input_hw": 32,
+    "initial_input_channels": 3,
+    "stem_stride": 1,
+    "stage_downsample_factors": [
+        1,
+        2,
+        2,
+        2
+    ],
+    "channel_divisible_by": 8,
+    "n_classes": 100,
+    "width_multiplier_choices": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+    ],
+    "expansion_ratio_choices": [
+        0.1,
+        0.14,
+        0.18,
+        0.22,
+        0.25
+    ],
+    "bn_gamma_zero_init": false,
+    "alpha_weights": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "beta_depth_penalty": 10.0
+}

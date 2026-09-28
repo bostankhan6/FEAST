@@ -1,4 +1,6 @@
-# FEAST
+# FEAST: Federated Shared-Space Training for Resource-Heterogeneous Clients
+
+[Read the paper on arXiv](https://arxiv.org/abs/2608.09250).
 
 FEAST trains a shared OFA-style supernet across resource-heterogeneous
 federated clients (CIFAR-100, CINIC-10, TinyImageNet) with a training recipe
@@ -15,6 +17,22 @@ range. Three components:
 3. **Sub-supernet communication** — server sends only the parameter slice
    needed for a client's affordable subnets, reducing bandwidth relative to
    full-supernet broadcast.
+
+## Citation
+
+If you use this work, please cite the paper:
+
+```bibtex
+@misc{khan2026feast,
+  title={FEAST: Federated Shared-Space Training for Resource-Heterogeneous Clients},
+  author={Bostan Khan and Masoud Daneshtalab},
+  year={2026},
+  eprint={2608.09250},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2608.09250}
+}
+```
 
 ## Repository structure
 
